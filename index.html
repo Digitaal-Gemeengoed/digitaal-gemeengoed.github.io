@@ -142,7 +142,7 @@ dialog .sluit{float:right;border:1px solid var(--line);background:var(--surface)
   <div class="knoppen">
     <a class="knop hoofd" href="#aandeslag" data-naar="aandeslag"><span lang="nl">Aan de slag</span><span lang="en">Get started</span></a>
     <a class="knop" href="https://eha-1999.github.io/MIRA/"><span lang="nl">Bekijk de demo (MIRA)</span><span lang="en">See the demo (MIRA)</span></a>
-    <a class="knop" href="https://github.com/digitaalgemeengoed/oa-uitrol"><span lang="nl">Broncode op GitHub</span><span lang="en">Source on GitHub</span></a>
+    <a class="knop" href="https://github.com/Digitaal-Gemeengoed/oa-uitrol"><span lang="nl">Broncode op GitHub</span><span lang="en">Source on GitHub</span></a>
   </div>
 
   <h3><span lang="nl">Wat het paneel doet</span><span lang="en">What the panel does</span></h3>
@@ -301,7 +301,7 @@ dialog .sluit{float:right;border:1px solid var(--line);background:var(--surface)
         <li lang="nl">Haal op de downloadpagina van die omgeving (<code>office.&lt;domein&gt;</code>) het Word-manifest of de LibreOffice-extensie.</li><li lang="en">Get the Word manifest or the LibreOffice extension from that environment's download page (<code>office.&lt;domain&gt;</code>).</li>
         <li lang="nl">Volg de testronde.</li><li lang="en">Follow the test round.</li>
       </ol>
-      <div class="knoppen"><a class="knop" href="https://github.com/digitaalgemeengoed/oa-uitrol/blob/main/TESTEN.md">TESTEN.md</a></div>
+      <div class="knoppen"><a class="knop" href="https://github.com/Digitaal-Gemeengoed/oa-uitrol/blob/main/TESTEN.md">TESTEN.md</a></div>
     </div>
     <div class="kaart">
       <h4><span lang="nl">Inrichten</span><span lang="en">Set up</span></h4>
@@ -310,21 +310,21 @@ dialog .sluit{float:right;border:1px solid var(--line);background:var(--surface)
         <li lang="nl">Drie VPS'en met Ubuntu 24.04 en een domein.</li><li lang="en">Three Ubuntu 24.04 VPSs and a domain.</li>
         <li lang="nl">Volg het stappenplan (in het Nederlands).</li><li lang="en">Follow the step-by-step guide (in Dutch).</li>
       </ol>
-      <div class="knoppen"><a class="knop" href="https://github.com/digitaalgemeengoed/oa-uitrol/blob/main/server/INRICHTING.md">INRICHTING.md</a></div>
+      <div class="knoppen"><a class="knop" href="https://github.com/Digitaal-Gemeengoed/oa-uitrol/blob/main/server/INRICHTING.md">INRICHTING.md</a></div>
     </div>
     <div class="kaart">
       <h4><span lang="nl">Ontwikkelen</span><span lang="en">Develop</span></h4>
       <p><span lang="nl">Alles op je eigen computer, zonder Keycloak.</span><span lang="en">Everything on your own computer, without Keycloak.</span></p>
       <ol>
-        <li><code>git clone https://github.com/digitaalgemeengoed/oa-uitrol</code></li>
+        <li><code>git clone https://github.com/Digitaal-Gemeengoed/oa-uitrol</code></li>
         <li><code>./haal-op.sh digitaalgemeengoed</code></li>
         <li><code>docker compose -f lokaal.yml up --build</code></li>
         <li lang="nl">Open <code>http://localhost:3000</code> en kies een testgebruiker.</li><li lang="en">Open <code>http://localhost:3000</code> and pick a test user.</li>
       </ol>
-      <div class="knoppen"><a class="knop" href="https://github.com/digitaalgemeengoed/oa-uitrol#op-%C3%A9%C3%A9n-machine">README</a></div>
+      <div class="knoppen"><a class="knop" href="https://github.com/Digitaal-Gemeengoed/oa-uitrol#op-%C3%A9%C3%A9n-machine">README</a></div>
     </div>
   </div>
-  <p><span lang="nl">Wat er per versie veranderd is, en welke server je moet bijwerken, staat in de <a href="https://github.com/digitaalgemeengoed/oa-uitrol/blob/main/CHANGELOG.md">CHANGELOG</a>. De documentatie is in het Nederlands.</span><span lang="en">What changed in each version, and which server to update, is in the <a href="https://github.com/digitaalgemeengoed/oa-uitrol/blob/main/CHANGELOG.md">CHANGELOG</a>. The documentation is in Dutch.</span></p>
+  <p><span lang="nl">Wat er per versie veranderd is, en welke server je moet bijwerken, staat in de <a href="https://github.com/Digitaal-Gemeengoed/oa-uitrol/blob/main/CHANGELOG.md">CHANGELOG</a>. De documentatie is in het Nederlands.</span><span lang="en">What changed in each version, and which server to update, is in the <a href="https://github.com/Digitaal-Gemeengoed/oa-uitrol/blob/main/CHANGELOG.md">CHANGELOG</a>. The documentation is in Dutch.</span></p>
 </section>
 
 <!-- ============================ REPOSITORIES ============================ -->
@@ -333,16 +333,16 @@ dialog .sluit{float:right;border:1px solid var(--line);background:var(--surface)
   <p class="lead"><span lang="nl">Elke laag heeft een eigen repository. <b>oa-uitrol</b> haalt ze allemaal op en zet ze samen neer.</span><span lang="en">Each layer has its own repository. <b>oa-uitrol</b> fetches them all and puts them together.</span></p>
   <div class="tabel"><table>
     <tr><th>Repository</th><th><span lang="nl">Wat</span><span lang="en">What</span></th></tr>
-    <tr><td><a href="https://github.com/digitaalgemeengoed/oa-uitrol"><b>oa-uitrol</b></a></td><td><span lang="nl"><b>Begin hier.</b> Uitrol op één machine of drie VPS'en, inrichting, testronde, wijzigingen.</span><span lang="en"><b>Start here.</b> Deployment on one machine or three VPSs, setup, test round, changes.</span></td></tr>
-    <tr><td><a href="https://github.com/digitaalgemeengoed/oa-contract">oa-contract</a></td><td><span lang="nl">Het contract: inhoud, vermogens, bevindingen, gebeurtenissen.</span><span lang="en">The contract: content, capabilities, findings, events.</span></td></tr>
-    <tr><td><a href="https://github.com/digitaalgemeengoed/oa-kern">oa-kern</a></td><td><span lang="nl">De assistentkern met de modules, zonder framework.</span><span lang="en">The assistant core with its modules, framework-free.</span></td></tr>
-    <tr><td><a href="https://github.com/digitaalgemeengoed/oa-paneel">oa-paneel</a></td><td><span lang="nl">Het paneel in React met NL Design System.</span><span lang="en">The panel in React with NL Design System.</span></td></tr>
-    <tr><td><a href="https://github.com/digitaalgemeengoed/oa-adapters">oa-adapters</a></td><td><span lang="nl">Adapters per werkomgeving, de LibreOffice-extensie en de demo.</span><span lang="en">Adapters per environment, the LibreOffice extension and the demo.</span></td></tr>
-    <tr><td><a href="https://github.com/digitaalgemeengoed/oa-integratielaag">oa-integratielaag</a></td><td><span lang="nl">Next.js: inloggen en de twee ingangen.</span><span lang="en">Next.js: login and the two entrances.</span></td></tr>
-    <tr><td><a href="https://github.com/digitaalgemeengoed/oa-services">oa-services</a></td><td><span lang="nl">Assistent-diensten: toegankelijkheid en persoonsgegevens herkennen; lezen en rekenen, nooit vastleggen.</span><span lang="en">Assistant services: accessibility and recognising personal data; reading and computing, never recording.</span></td></tr>
-    <tr><td><a href="https://github.com/digitaalgemeengoed/oa-wcag">oa-wcag</a></td><td><span lang="nl">Toegankelijkheidscontrole van docx, xlsx en pptx.</span><span lang="en">Accessibility checks for docx, xlsx and pptx.</span></td></tr>
-    <tr><td><a href="https://github.com/digitaalgemeengoed/opendop-mini">opendop-mini</a></td><td><span lang="nl">Minimaal platform: Object Service op PostgreSQL en S3.</span><span lang="en">Minimal platform: Object Service on PostgreSQL and S3.</span></td></tr>
-    <tr><td><a href="https://github.com/digitaalgemeengoed/oa-beheer">oa-beheer</a></td><td><span lang="nl">Beheerportaal: accounts, groepen, audit.</span><span lang="en">Admin portal: accounts, groups, audit.</span></td></tr>
+    <tr><td><a href="https://github.com/Digitaal-Gemeengoed/oa-uitrol"><b>oa-uitrol</b></a></td><td><span lang="nl"><b>Begin hier.</b> Uitrol op één machine of drie VPS'en, inrichting, testronde, wijzigingen.</span><span lang="en"><b>Start here.</b> Deployment on one machine or three VPSs, setup, test round, changes.</span></td></tr>
+    <tr><td><a href="https://github.com/Digitaal-Gemeengoed/oa-contract">oa-contract</a></td><td><span lang="nl">Het contract: inhoud, vermogens, bevindingen, gebeurtenissen.</span><span lang="en">The contract: content, capabilities, findings, events.</span></td></tr>
+    <tr><td><a href="https://github.com/Digitaal-Gemeengoed/oa-kern">oa-kern</a></td><td><span lang="nl">De assistentkern met de modules, zonder framework.</span><span lang="en">The assistant core with its modules, framework-free.</span></td></tr>
+    <tr><td><a href="https://github.com/Digitaal-Gemeengoed/oa-paneel">oa-paneel</a></td><td><span lang="nl">Het paneel in React met NL Design System.</span><span lang="en">The panel in React with NL Design System.</span></td></tr>
+    <tr><td><a href="https://github.com/Digitaal-Gemeengoed/oa-adapters">oa-adapters</a></td><td><span lang="nl">Adapters per werkomgeving, de LibreOffice-extensie en de demo.</span><span lang="en">Adapters per environment, the LibreOffice extension and the demo.</span></td></tr>
+    <tr><td><a href="https://github.com/Digitaal-Gemeengoed/oa-integratielaag">oa-integratielaag</a></td><td><span lang="nl">Next.js: inloggen en de twee ingangen.</span><span lang="en">Next.js: login and the two entrances.</span></td></tr>
+    <tr><td><a href="https://github.com/Digitaal-Gemeengoed/oa-services">oa-services</a></td><td><span lang="nl">Assistent-diensten: toegankelijkheid en persoonsgegevens herkennen; lezen en rekenen, nooit vastleggen.</span><span lang="en">Assistant services: accessibility and recognising personal data; reading and computing, never recording.</span></td></tr>
+    <tr><td><a href="https://github.com/Digitaal-Gemeengoed/oa-wcag">oa-wcag</a></td><td><span lang="nl">Toegankelijkheidscontrole van docx, xlsx en pptx.</span><span lang="en">Accessibility checks for docx, xlsx and pptx.</span></td></tr>
+    <tr><td><a href="https://github.com/Digitaal-Gemeengoed/opendop-mini">opendop-mini</a></td><td><span lang="nl">Minimaal platform: Object Service op PostgreSQL en S3.</span><span lang="en">Minimal platform: Object Service on PostgreSQL and S3.</span></td></tr>
+    <tr><td><a href="https://github.com/Digitaal-Gemeengoed/oa-beheer">oa-beheer</a></td><td><span lang="nl">Beheerportaal: accounts, groepen, audit.</span><span lang="en">Admin portal: accounts, groups, audit.</span></td></tr>
   </table></div>
   <p><span lang="nl">Licentie: <a href="https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12">EUPL 1.2</a>. Bijdragen en vragen zijn welkom via de issues van de betreffende repository.</span><span lang="en">Licence: <a href="https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12">EUPL 1.2</a>. Contributions and questions are welcome through the issues of the relevant repository.</span></p>
 </section>
@@ -351,7 +351,7 @@ dialog .sluit{float:right;border:1px solid var(--line);background:var(--surface)
 <footer>
   <div class="wrap">
     <span>Digitaal GemeenGoed · EUPL 1.2</span>
-    <a href="https://github.com/digitaalgemeengoed">GitHub</a>
+    <a href="https://github.com/Digitaal-Gemeengoed">GitHub</a>
     <button type="button" id="colofon-knop"><span lang="nl">Colofon</span><span lang="en">Colophon</span></button>
   </div>
 </footer>
